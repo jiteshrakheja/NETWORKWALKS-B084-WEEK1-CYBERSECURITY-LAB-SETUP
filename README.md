@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # 🔐 Cybersecurity Lab Environment Setup
@@ -67,7 +68,8 @@ It can be used for activities such as:
 
 ## 🏗️ Lab Architecture
 
-![](images/1-screenshot-title-image.png)
+<img width="1024" height="512" alt="1-screenshot-title-image" src="https://github.com/user-attachments/assets/95f6cc1f-7234-4d13-a4f4-6c17655b9630" />
+
 
 
 Additional target machines can be added to the same virtual network in future projects.
@@ -131,7 +133,8 @@ IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
 
-![](images/2-screenshot-network-settings-1.png)
+<img width="1366" height="720" alt="2-screenshot-network-settings-1" src="https://github.com/user-attachments/assets/3f083b11-98a1-4fbb-a944-071ee364eeac" />
+
 
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
@@ -158,7 +161,8 @@ The VM was allocated:
 ```text
 RAM: 4096 MB
 ```
-![](images/3-screenshot-kali-linux.png)
+<img width="1366" height="720" alt="3-screenshot-kali-linux" src="https://github.com/user-attachments/assets/ead00249-36d1-40eb-b6db-a08cc0d46bc6" />
+
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
 
@@ -180,7 +184,7 @@ DNS: 8.8.8.8
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
-![](images/4-screenshot-kali-network-settings.png)
+<img width="1366" height="720" alt="4-screenshot-kali-network-settings" src="https://github.com/user-attachments/assets/cc80da29-0d55-42ae-8a89-b379706037e7" />
 
 ---
 
@@ -198,7 +202,7 @@ The snapshot represents the clean baseline of the laboratory.
 
 If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
 
-![](images/5-screenshot-kali-snapshot.png)
+<img width="1366" height="720" alt="5-screenshot-kali-snapshot" src="https://github.com/user-attachments/assets/2f66c504-7631-4e22-86e5-f8dee5a5c9d4" />
 
 
 ---
@@ -222,7 +226,7 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 The command **`ip a`** shows the configured IP address **`10.0.0.2 /24`** and states that it is a static and consistent IP address.
 
-![](images/6-screenshot-kali-ip-address.png)
+<img width="1366" height="720" alt="6-screenshot-kali-ip-address" src="https://github.com/user-attachments/assets/682347f2-0588-41c8-ac70-1357a41199d9" />
 
 ---
 
@@ -232,7 +236,8 @@ The command **`ip a`** shows the configured IP address **`10.0.0.2 /24`** and st
 
 The pings to the gateway **`10.0.0.1`** and internet **`8.8.8.8`** were suceessful.
 
-![](images/7-screenshot-kali-connectivity-testing.png)
+<img width="1366" height="720" alt="7-screenshot-kali-connectivity-testing" src="https://github.com/user-attachments/assets/5a453e73-d315-40d0-a2d2-77074036a338" />
+
 
 ---
 
@@ -242,7 +247,8 @@ The pings to the gateway **`10.0.0.1`** and internet **`8.8.8.8`** were suceessf
 
 The domain was successfuly resolved and the Nmap version showed up with the commmnands **`nslookup networkwalks.com`** and **`nmap --version`**.
 
-![](images/8-screenshot-kali-dns-testing.png)
+<img width="1366" height="720" alt="8-screenshot-kali-dns-testing" src="https://github.com/user-attachments/assets/b58ed57b-159e-4c0a-8950-534c1f16bf4d" />
+
 
 ---
 
